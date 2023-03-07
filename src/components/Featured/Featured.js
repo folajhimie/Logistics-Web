@@ -6,8 +6,8 @@ import React from "react";
 import Freight from '../../assets/images/Cargo.mp4';
 // import AirPlane from '../../assets/images/Freight.mp4'
 import PrimaryButton from '../../components/Buttons/primaryButton';
-import { HiArrowSmRight, HiArrowCircleRight, HiDotsHorizontal } from "react-icons/hi";
-import Card from "../Card/Card";
+import { HiArrowSmRight } from "react-icons/hi";
+// import Card from "../Card/Card";
 import './Featured.css'
 
 // <img src={Logistics} className="bg-no-repeat bg-contain" alt="" />
@@ -42,7 +42,7 @@ function Featured() {
         <div className="hidden mr-[7%] text-start sm:block md:block">
           <div className="bg-lime-500 w-48 h-1"></div>
           <div className="bg-secondary w-24 h-1 mt-2"></div>
-          <div className="mt-2 text-lg text-slate-900 md:text-sm">
+          <div className="mt-2 text-lg text-slate-900 md:text-md lg:text-lg">
             accelerate performance and growth for your <br />
             entire supply chain. Ship to and from anywhere.<br />
             Track everything collaborate with everyone.<br />
@@ -59,13 +59,13 @@ function Featured() {
         <h2>Total Volume Secured: $42,104,783,662.47</h2>
       </div>
 
-      <div>
+      {/* <div>
         <Card 
           arrow={<HiArrowCircleRight/>} 
           dot={<HiDotsHorizontal/>} 
         />
 
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -1,0 +1,7 @@
+#videos {
+    /* position: absolute; */
+    width: fit-content;
+    height: 70vh;
+    object-fit: cover;
+    /* z-index: 20; */
+}

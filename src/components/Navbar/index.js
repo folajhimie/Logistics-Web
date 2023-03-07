@@ -84,7 +84,7 @@ export default function Navbar() {
         </div>
         <div className="hidden gap-4 md:flex">
           <a className="bg-primary rounded-md py-2 px-10 text-white font-poppins flex items-center" href='/auth/login' alt="">Sign In</a>
-          <a className="border bg-white border-secondary rounded-md py-2 px-10 text-primary font-poppins flex items-center hover:bg-secondary" href='/auth/register' alt="">Sign Up</a>
+          <a className=" bg-white border-0 rounded-md py-2 px-10 text-primary font-poppins flex items-center hover:bg-secondary" href='/auth/register' alt="">Sign Up</a>
         </div>
 
 
@@ -97,31 +97,31 @@ export default function Navbar() {
         <div className=' hidden md:flex '> 
           <hr />
           <div className=" hidden md:flex md:w-full justify-center bg-lime-500">
-            <div className="ml-10 md:ml-8 md:text-xs">
+            <div className="ml-10 md:ml-8 md:text-xs lg:text-sm">
               International Shipping
             </div>
-            <div className="ml-10 md:ml-8 md:text-xs">
+            <div className="ml-10 md:ml-8 md:text-xs lg:text-sm ">
               Logistics
             </div>
-            <div className="ml-10 md:ml-8 md:text-xs">
+            <div className="ml-10 md:ml-8 md:text-xs lg:text-sm">
               Sea Freight
             </div>
-            <div className="ml-10 md:ml-8 md:text-xs">
+            <div className="ml-10 md:ml-8 md:text-xs lg:text-sm">
               Delivery
             </div>
-            <div className="ml-10 md:ml-8 md:text-xs">
+            <div className="ml-10 md:ml-8 md:text-xs lg:text-sm">
               Supply Chain
             </div>
-            <div className="ml-10 md:ml-8 md:text-xs">
+            <div className="ml-10 md:ml-8 md:text-xs lg:text-sm">
               Ware-Housing 
             </div>
-            <div className="ml-10 md:ml-8 md:text-xs">
+            <div className="ml-10 md:ml-8 md:text-xs lg:text-sm">
               Air Freight
             </div>
-            <div className="ml-10 md:ml-8 md:text-xs">
+            <div className="ml-10 md:ml-8 md:text-xs lg:text-sm">
               Procurement
             </div>
-            <div className="ml-10 md:ml-8 md:text-xs">
+            <div className="ml-10 md:ml-8 md:text-xs lg:text-sm">
               Track Monitoring 
             </div>
           </div>

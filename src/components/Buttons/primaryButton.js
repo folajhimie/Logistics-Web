@@ -7,7 +7,7 @@ const PrimaryButton = ({icon, lineHeight, fontWeight, bgColor, color, bgHoverCol
             type="button"
             // onClick={()=> setIsClicked(initialState)}
             style={{lineHeight, fontWeight, fontSize, backgroundColor: bgColor, color, borderRadius, border, width}}
-            className={`  justify-between font-semibold capitalise font-blink text-${size} p-3 sm:w-${width} xs:w-${small} hover:drop-shadow-xs hover:bg-${bgHoverColor} lg:flex xs:w-44 xs:text-sm xs:flex`}
+            className={`  justify-between font-semibold capitalise font-blink text-${size} p-3 lg:w-${width} xl:w-${width} sm:w-${width} xs:w-${small} hover:drop-shadow-xs hover:bg-${bgHoverColor} lg:flex xs:w-44 xs:text-sm xs:flex`}
         >
             {text} <span className='mt-1'>{icon}</span>
         </button>
