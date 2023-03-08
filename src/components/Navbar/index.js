@@ -84,7 +84,7 @@ export default function Navbar() {
         </div>
         <div className="hidden gap-4 md:flex">
           <a className="bg-primary rounded-md py-2 px-10 text-white font-poppins flex items-center" href='/auth/login' alt="">Sign In</a>
-          <a className=" bg-white border-0 rounded-md py-2 px-10 text-primary font-poppins flex items-center hover:bg-secondary" href='/auth/register' alt="">Sign Up</a>
+          <a className=" bg-white border rounded-md py-2 px-10 text-primary font-poppins flex items-center hover:bg-secondary" href='/auth/register' alt="">Sign Up</a>
         </div>
 
 

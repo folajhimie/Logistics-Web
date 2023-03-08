@@ -6,7 +6,7 @@ import React from 'react';
 // import JobberLogo from '../../assets/images/fontIcon/icon.png';
 // import Icon from '../../assets/images/fontIcon/logo.png'
 // import PrimaryButton from '../buttons/PrimaryButton/index';
-import PrimaryButton from '../Buttons/primaryButton';
+// import PrimaryButton from '../Buttons/primaryButton';
 import { Link } from "react-router-dom";
 import { HiArrowSmRight } from "react-icons/hi";
 
@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <footer id='footer'>
       <div className="container px-2 border-y border-lightgray py-6">
-        <div className="grid lg:grid-cols-5 xl:grid-cols-5 md:grid-cols-5 ">
+        <div className="grid lg:grid-cols-4 xl:grid-cols-5 md:grid-cols-4 ">
           <div className="flex items-center">
             {/* <img src={logo} className="mr-10" alt="Jobber" /> */}
             <a href="/" className="md:flex items-center mb-4 hidden">

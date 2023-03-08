@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Fade } from 'react-reveal';
 import Card from '../Card/Card';
 import SecondaryCard from '../Card/SecondaryCard';
 import PrimaryCard from '../Card/PrimaryCard';
 import { HiArrowCircleRight, HiDotsHorizontal, HiOutlineCheckCircle } from "react-icons/hi";
-import { BsDot } from "react-icons/bs";
+import { BsDot, BsLightningChargeFill} from "react-icons/bs";
 
 
 
@@ -11,19 +12,38 @@ import { BsDot } from "react-icons/bs";
 const Sponspor = () => {
     return (
         <div>
-            <div>
-                <div className='flex justify-center items-center mt-20'>
-                    <div className='grid grid-cols-3 gap-16 px-12'>
-                        <Card
+            <div className=''>
+                <div className=' flex justify-center items-center mt-2'>
+                    <div className='grid xsl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-col-3 items-center gap-16 sm:grid-cols-2 xs:grid-cols-1'>
+                        {/* <Card
                             arrow={<HiArrowCircleRight />}
                             dot={<HiDotsHorizontal />}
-                        />
-                        <PrimaryCard />
-                        <SecondaryCard
-                            arrow={<HiOutlineCheckCircle />}
-                            dot={<HiDotsHorizontal />}
-                            doubleDot={<BsDot/>}
-                        />
+                        /> */}
+                        <Fade up delay={200}>
+                            <Card
+                                arrow={<HiOutlineCheckCircle />}
+                                dot={<HiDotsHorizontal />}
+                                doubleDot={<BsDot />}
+                                status={'Track Package'}
+                            /> 
+                        </Fade>
+                        {/* <Card /> */}
+                        <Fade left delay={400}>
+                            <SecondaryCard
+                                arrow={<HiArrowCircleRight />}
+                                dot={<HiDotsHorizontal />}
+                                doubleDot={<BsDot />}
+                                status={'Ship Package'}
+                            /> 
+                        </Fade>
+                        <Fade right delay={600}>
+                            <PrimaryCard
+                                arrow={<BsLightningChargeFill />}
+                                dot={<HiDotsHorizontal />}
+                                doubleDot={<BsDot />}
+                                status={'Send Package'}
+                            /> 
+                        </Fade>
 
                     </div>
                 </div>

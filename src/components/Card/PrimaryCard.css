@@ -1,7 +1,13 @@
 #videos {
     /* position: absolute; */
     width: fit-content;
-    height: 70vh;
-    object-fit: cover;
+    height: 100vh;
+    /* height: fit-content; */
+    /* object-fit: cover; */
     /* z-index: 20; */
+}
+
+.content{
+    width: max-content;
+    height: fit-content;
 }
