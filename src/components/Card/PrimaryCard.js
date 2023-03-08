@@ -13,7 +13,7 @@ const PrimaryCard = ({ dot, arrow, doubleDot, status }) => {
             <div className='bg-white h-[100%] flex justify-center flex-col'>
                 <div className='top-bar flex justify-between items-center '>
                     <div className='text-slate-900 font-semibold ml-6 mt-3'>{status}</div>
-                    <div className=' bg-[yellowgreen] rounded-full xsl:p-2 lg:p-2 mr-6 text-slate-900  xsl:w-fit xsl:mt-1 '><span className=''>Delivery Time</span></div>
+                    <div className=' bg-[yellowgreen] rounded-full xsl:p-2 lg:p-2 mr-6 text-white  xsl:w-fit xsl:mt-1 font-semibold'><span className=''>Delivery Time</span></div>
                 </div>
 
                 <ul className='flex flex-col xl:mt-7 xsl:mt-3 lg:mt-7'>

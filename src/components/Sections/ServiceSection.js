@@ -15,11 +15,6 @@ import { VscServer } from "react-icons/vsc";
 
 
 
-
-
-
-
-
 const ServiceSection = () => {
     return (
         <section id="home" className="mx-auto py-32 px-8">
@@ -34,11 +29,11 @@ const ServiceSection = () => {
                         <div className='flex justify-between  w-full px-32 xs:grid xs:grid-cols-1 md:grid md:grid-cols-2'>
                             <p className="text-slate-900 mb-6 text-start font-poppins text-3xl font-semibold">The best Services <br /> We Provide</p>
                             <div className='flex flex-row'>
-                                <div className='ml-6 flex flex-row mt-2 text-teal-800 cursor-pointer'>
+                                <div className='ml-6 flex flex-row mt-2  cursor-pointer'>
                                     <span className='mr-4 font-poppins text-start text-slate-900'>
                                         Our global Logistics, expertise, advanced supply chain technology. <br />
                                         and customized logistics solutions will assist you in analyzing. <br />
-                                        developing, and implementing and successful end-to-end supply chain <br />
+                                        developing, and implementing and successful end-to-end supply chain 
                                         Management strategies.</span>
                                 </div>
                             </div>
@@ -50,28 +45,28 @@ const ServiceSection = () => {
                         <ul className='grid lg:grid-cols-4 items-center gap-10 md:grid-cols-2'>
                             {/* 1st Row  */}
                             <li>
-                                <div className='bg-rose-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-rose-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer '>
                                     <BiBus />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Local Moving</div>
                                 <div className='text-start text-xs'> Our global Logistics, expertise, advanced supply chain technology. </div>
                             </li>
                             <li>
-                                <div className='bg-secondary rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-secondary rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>
                                     <GiCommercialAirplane />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>International Shipping</div>
                                 <div className='text-start text-xs'> Our global Logistics, expertise, advanced supply chain technology. </div>
                             </li>
                             <li>
-                                <div className='bg-pink-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-pink-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>
                                     <BsBuildingGear />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Corporate Moving</div>
                                 <div className='text-start text-xs'> Our global Logistics, expertise, advanced supply chain technology. </div>
                             </li>
                             <li>
-                                <div className='bg-third rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-third rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>
                                     <TbBuildingWarehouse />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Safe WareHousing</div>
@@ -80,28 +75,28 @@ const ServiceSection = () => {
 
                             {/* 2nd Row  */}
                             <li>
-                                <div className='bg-primary rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-primary rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>
                                     <FaRegPaperPlane />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Long Distance Moving</div>
                                 <div className='text-start text-xs'> Our global Logistics, expertise, advanced supply chain technology. </div>
                             </li>
                             <li>
-                                <div className='bg-sky-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-sky-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>
                                     <IoSpeedometerOutline />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Instant Courier</div>
                                 <div className='text-start text-xs'> Our global Logistics, expertise, advanced supply chain technology. </div>
                             </li>
                             <li>
-                                <div className='bg-zinc-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-zinc-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>
                                     <GiDeliveryDrone />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Speedy Delivery</div>
                                 <div className='text-start text-xs'> Our global Logistics, expertise, advanced supply chain technology. </div>
                             </li>
                             <li>
-                                <div className='bg-orange-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>                                  
+                                <div className='bg-orange-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>                                  
                                     <VscServer />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Quick Request</div>
@@ -110,28 +105,28 @@ const ServiceSection = () => {
 
                             {/* 3rd Row  */}
                             <li>
-                                <div className='bg-purple-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-purple-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>
                                     <FiMonitor />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Track Monitoring</div>
                                 <div className='text-start text-xs'> Our global Logistics, expertise, advanced supply chain technology. </div>
                             </li>
                             <li>
-                                <div className='bg-amber-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-amber-600 rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>
                                     <MdPayment />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Easy Payment</div>
                                 <div className='text-start text-xs'> Our global Logistics, expertise, advanced supply chain technology. </div>
                             </li>
                             <li>
-                                <div className='bg-[#ff4560] rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-[#ff4560] rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>
                                     <BsDatabaseCheck />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Data App Management</div>
                                 <div className='text-start text-xs'> Our global Logistics, expertise, advanced supply chain technology. </div>
                             </li>
                             <li>
-                                <div className='bg-[#28a745] rounded-lg text-white p-2 text-3xl w-10 flex justify-center'>
+                                <div className='bg-[#28a745] rounded-lg text-white p-2 text-3xl w-10 flex justify-center hover:scale-110 cursor-pointer'>
                                     <TbTruckDelivery />
                                 </div>
                                 <div className='mb-3 text-start mt-5 text-md font-semibold'>Logistics</div>

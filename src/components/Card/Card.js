@@ -6,7 +6,7 @@ const Card = ({dot, arrow, doubleDot, status}) => {
         <div className='bg-white h-[100%] flex justify-center flex-col'>
             <div className='top-bar flex justify-between items-center mt-1'>
                 <div className='text-slate-900 font-semibold ml-6 mt-3 '>{status}</div>
-                <div className='rounded-[100%] bg-primary p-2 mr-6 xsl:w-10 xsl:h-10 lg:w-7 lg:h-7 lg:text-sm xsl:text-md'><span className=' flex justify-center text-slate-200'>3</span></div>
+                <div className='rounded-[100%] bg-primary p-2 mr-6 xsl:w-10 xsl:h-10 lg:w-7 lg:h-7 lg:text-sm xsl:text-md'><span className=' flex justify-center text-slate-200 font-semibold'>3</span></div>
             </div>
 
             <ul className='flex flex-col xl:mt-7 xsl:mt-3 lg:mt-7'>

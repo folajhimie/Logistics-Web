@@ -7,6 +7,7 @@ import { HiArrowCircleRight, HiDotsHorizontal, HiOutlineCheckCircle } from "reac
 import { BsDot, BsLightningChargeFill} from "react-icons/bs";
 import TradeSection from '../Sections/TradeSection';
 import ServiceSection from '../Sections/ServiceSection';
+// import { cards } from '../../../data';
 
 
 
@@ -59,6 +60,12 @@ const Sponspor = () => {
                     <div className=''>
                         <ServiceSection />
                     </div>
+                </div>
+
+                <div>
+                    {/* <div className=''>
+                        <ServiceSection />
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -6,7 +6,9 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 // import BuyIcon from '../../assets/images/logistics.png';
 // import PrimaryButton from '../../components/buttons/PrimaryButton/index';
 // import Select from '../Select/index';
-import AirPlane from '../../assets/images/Freight.mp4'
+
+// import AirPlane from '../../assets/images/Freight.mp4'
+import select from '../../assets/wrappers/dropping.svg'
 
 const TradeSection = () => {
 
@@ -19,7 +21,7 @@ const TradeSection = () => {
   };
 
   return (
-    <section id="home" className="container mx-auto  bg-amber-200 mt-7">
+    <section id="home" className="mx-auto px-7 bg-[#fffae5] mt-7">
       <div className="grid md:grid-cols-2 gap-10 ">
         <div className="flex items-center">
           <div className="max-w-xl">
@@ -62,10 +64,10 @@ const TradeSection = () => {
         </div>
         <div className='row-start-1 md:col-start-2 '>
           <Fade up>
-            {/* <img src={BuyIcon} alt="" /> */}
-            <video autoPlay loop muted id='' className='xsl:p-10  md:p-0 w-[720px]'>
+            <img src={select} alt="" />
+            {/* <video autoPlay loop muted id='' className='xsl:p-10  md:p-0 w-[720px]'>
               <source src={AirPlane} type='video/mp4' />
-            </video>
+            </video> */}
           </Fade>
         </div>
       </div>
