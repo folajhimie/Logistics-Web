@@ -13,8 +13,8 @@ const Card = ({dot, arrow, doubleDot, status}) => {
                     <li className='flex w-full justify-between xsl:mt-7'>
                         <div className='text-third text-3xl '>{arrow}</div>
                         <div className=' w-full flex flex-col justify-start text-start pl-4'>
-                            <div className='text-start text-slate-900 capitalize xsl:text-lg lg:text-sm'>Transit on South </div>
-                            <div className='text-gray-400 xsl:text-sm text-start lg:text-xs'>05:22 Local time <span className='text-xl inline-block text-purple-600  lg:text-xs'> • </span> 07 January 2022</div>
+                            <div className='text-start text-slate-900 capitalize xsl:text-lg lg:text-sm'>Purchase of Iphone 12 </div>
+                            <div className='text-gray-400 xsl:text-sm text-start lg:text-xs'>15:07 Local time <span className='text-xl inline-block text-sky-700  lg:text-xs'> • </span> 02 January 2022</div>
                             <div className="bg-gray-300 opacity-50 w-48 h-1 mt-3 mb-2"></div>
                             <div className="bg-gray-300 opacity-50 w-24 h-1 mb-2"></div>
                         </div>
@@ -23,8 +23,8 @@ const Card = ({dot, arrow, doubleDot, status}) => {
                     <li className='flex w-full justify-between xsl:mt-7'>
                         <div className='text-third text-3xl'>{arrow}</div>
                         <div className=' w-full flex flex-col justify-start text-start pl-4'>
-                            <div className='text-start text-slate-900 capitalize xsl:text-lg lg:text-sm'>Transit on South </div>
-                            <div className='text-gray-400 xsl:text-sm text-start lg:text-xs'>05:22 Local time <span className='text-xl inline-block text-purple-600  lg:text-xs'> • </span> 07 January 2022</div>
+                            <div className='text-start text-slate-900 capitalize xsl:text-lg lg:text-sm'>Pending Request </div>
+                            <div className='text-gray-400 xsl:text-sm text-start lg:text-xs'>03:12 Local time <span className='text-xl inline-block text-sky-700  lg:text-xs'> • </span> 24 April 2022</div>
                             <div className="bg-gray-300 opacity-50 w-48 h-1 mt-3 mb-2"></div>
                             <div className="bg-gray-300 opacity-50 w-24 h-1 mb-2"></div>
                         </div>
@@ -33,8 +33,8 @@ const Card = ({dot, arrow, doubleDot, status}) => {
                     <li className='flex w-full justify-between xsl:mt-7'>
                         <div className='text-third text-3xl'>{arrow}</div>
                         <div className=' w-full flex flex-col justify-start text-start pl-4'>
-                            <div className='text-start text-slate-900 capitalize xsl:text-lg lg:text-sm'>Transit on South </div>
-                            <div className='text-gray-400 xsl:text-sm text-start lg:text-xs'>05:22 Local time <span className='text-xl inline-block text-purple-600  lg:text-xs'> • </span> 07 January 2022</div>
+                            <div className='text-start text-slate-900 capitalize xsl:text-lg lg:text-sm'>Transit Package to Maryland</div>
+                            <div className='text-gray-400 xsl:text-sm text-start lg:text-xs'>20:52 Local time <span className='text-xl inline-block text-sky-700  lg:text-sm'> • </span> 17 May 2022</div>
                             <div className="bg-gray-300 opacity-50 w-48 h-1 mt-3 mb-2"></div>
                             <div className="bg-gray-300 opacity-50 w-24 h-1 mb-2"></div>
                         </div>
@@ -43,8 +43,8 @@ const Card = ({dot, arrow, doubleDot, status}) => {
                     <li className='flex w-full justify-between xsl:mt-7 xsl:mb-3'>
                         <div className='text-third text-3xl'>{arrow}</div>
                         <div className=' w-full flex flex-col justify-start text-start pl-4'>
-                            <div className='text-start text-slate-900 capitalize xsl:text-lg lg:text-sm'>Transit on South </div>
-                            <div className='text-gray-400 xsl:text-sm text-start lg:text-xs'>05:22 Local time <span className='text-xl inline-block text-purple-600  lg:text-xs'> • </span> 07 January 2022</div>
+                            <div className='text-start text-slate-900 capitalize xsl:text-lg lg:text-sm'>Package to Ikeja HQ </div>
+                            <div className='text-gray-400 xsl:text-sm text-start lg:text-xs'>12:42 Local time <span className='text-xl inline-block text-sky-700  lg:text-sm'> • </span> 28 October 2022</div>
                             <div className="bg-gray-300 opacity-50 w-48 h-1 mt-3 mb-2"></div>
                             <div className="bg-gray-300 opacity-50 w-24 h-1 mb-2"></div>
                         </div>

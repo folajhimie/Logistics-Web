@@ -5,6 +5,7 @@ import SecondaryCard from '../Card/SecondaryCard';
 import PrimaryCard from '../Card/PrimaryCard';
 import { HiArrowCircleRight, HiDotsHorizontal, HiOutlineCheckCircle } from "react-icons/hi";
 import { BsDot, BsLightningChargeFill} from "react-icons/bs";
+import TradeSection from '../Sections/TradeSection';
 
 
 
@@ -45,6 +46,12 @@ const Sponspor = () => {
                             /> 
                         </Fade>
 
+                    </div>
+
+                </div>
+                <div>
+                    <div className=''>
+                        <TradeSection/>
                     </div>
                 </div>
             </div>
