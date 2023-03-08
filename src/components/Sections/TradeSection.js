@@ -19,7 +19,7 @@ const TradeSection = () => {
   };
 
   return (
-    <section id="home" className="container mx-auto py-32 bg-amber-200 mt-7">
+    <section id="home" className="container mx-auto  bg-amber-200 mt-7">
       <div className="grid md:grid-cols-2 gap-10 ">
         <div className="flex items-center">
           <div className="max-w-xl">
