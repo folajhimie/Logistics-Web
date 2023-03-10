@@ -64,7 +64,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={classNames('fixed w-full transition-all duration-50 z-10 pt-4 ', {
+    <nav className={classNames('fixed w-full transition-all duration-50 z-50 pt-4 ', {
       // "bg-emerald-800  shadow-none border-none": dropdownOpen,
       // "bg-white shadow-lg ": !dropdownOpen, 
       "bg-white shadow-lg !py-3": backgroundwhite

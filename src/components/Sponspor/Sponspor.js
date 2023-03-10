@@ -8,6 +8,7 @@ import { BsDot, BsLightningChargeFill} from "react-icons/bs";
 import TradeSection from '../Sections/TradeSection';
 import ServiceSection from '../Sections/ServiceSection';
 // import { cards } from '../../../data';
+import Slider from '../Sections/Slider';
 
 
 
@@ -63,10 +64,14 @@ const Sponspor = () => {
                 </div>
 
                 <div>
-                    {/* <div className=''>
-                        <ServiceSection />
-                    </div> */}
+                    <h1 className='mt-11 mb-7 text-center text-xl font-semibold text-gray-500'>Explore our Services in a Unqiue Way</h1>
+                    <Slider />
                 </div>
+                {/* <div>
+                    <div className=''>
+                        <ServiceSection />
+                    </div>
+                </div> */}
             </div>
         </div>
     )

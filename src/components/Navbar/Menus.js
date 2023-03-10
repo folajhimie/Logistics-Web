@@ -5,7 +5,7 @@ import classNames from 'classnames';
 
 export default function Menus({dropdownOpen, backgroundwhite }) {
   return (
-        <div className="">
+        <div className="relative z-50">
           <div className="flex flex-col mt-4 rounded-lg md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <div className="w-full">
               <a href='#service' 

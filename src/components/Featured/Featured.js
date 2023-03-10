@@ -23,9 +23,9 @@ function Featured() {
 
       <div className="hero-text w-full flex flex-row justify-between sm:flex sm:flex-row">
         <div className="ml-[7%] text-start ">
-          <h1 className="lg:text-5xl md:text-2xl sm:text-xl text-primary">Fast, Precise, Ship</h1>
-          <h1 className="lg:text-5xl md:text-2xl sm:text-xl text-primary">and Track Your </h1>
-          <h1 className="lg:text-5xl md:text-2xl sm:text-xl text-primary">Package</h1>
+          <h1 className="lg:text-5xl md:text-2xl sm:text-xl xs:text-3xl text-primary">Fast, Precise, Ship</h1>
+          <h1 className="lg:text-5xl md:text-2xl sm:text-xl xs:text-3xl text-primary">and Track Your </h1>
+          <h1 className="lg:text-5xl md:text-2xl sm:text-xl xs:text-3xl text-primary">Package</h1>
           <div className="mt-10">
             <PrimaryButton
               color="white"

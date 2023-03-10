@@ -1,0 +1,22 @@
+<svg fill="none" height="900" viewBox="0 0 1600 900" width="1600"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <clipPath id="a">
+        <path d="m0 0h1600v900h-1600z"/>
+    </clipPath>
+    <g clip-path="url(#a)">
+        <path d="m1600 0h-1600v900h1600z" fill="#fff"/>
+        <path d="m929.419 489-381.419 411h782z" fill="#fff5f2"/>
+        <path d="m928.849 489-76.849 411h478z" fill="#e9f6da"/>
+        <path d="m0 900 418.265-217 381.735 217z" fill="#ebe4e1"/>
+        <path d="m363 900 55.651-217 381.349 217z" fill="#ecf6e0"/>
+        <path d="m1153.46 577 318.54 323h-617z" fill="#f7f1ef"/>
+        <path d="m1154.32 577 317.68 323h-355z" fill="#ebf2e3"/>
+        <path d="m640.715 713 223.285 187h-473z" fill="#f4f0ef"/>
+        <path d="m591 900 49.304-187 223.696 187z" fill="#dbe1d5"/>
+        <path d="m1617 900-282.33-245-278.67 245z" fill="#f1efef"/>
+        <path d="m1617 900-282.13-245-32.87 245z" fill="#e5e7e1"/>
+        <path d="m1160 900-218.303-195-224.697 195z" fill="#dedede"/>
+        <path d="m916 900h244l-218.412-195z" fill="#e6e6e6"/>
+    </g>
+</svg>
