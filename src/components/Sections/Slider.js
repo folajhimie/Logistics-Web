@@ -17,25 +17,30 @@ const Slider = () => {
     // const [cardLine, setCardLine ] = useState(0)
     let timeOut = null;
     let productContainers = [...document.querySelectorAll('.carousel_card')];
-// const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
-// const preBtn = [...document.querySelectorAll('.pre-btn')];
+    // const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+    // const preBtn = [...document.querySelectorAll('.pre-btn')];
 
-    
+
 
 
     const goToPrevious = () => {
+        console.log("product..", productContainers);
+
         productContainers.forEach((item, i) => {
+            console.log("the end...", item);
             let containerDimensions = item.getBoundingClientRect();
             let containerWidth = containerDimensions.width;
+            console.log("containerDimensions", containerDimensions);
             item.scrollLeft -= containerWidth;
-        console.log("super", containerDimensions);
-        // item.scrollLeft += containerWidth;
-        if (item.scrollLeft === 0) {
-            console.log(true);
-            item.scrollLeft = 2640;
-        }
-        console.log("fine House...", item.scrollLeft);
-        console.log("Independent..", containerWidth);
+            console.log("scrollLeft...", item.scrollLeft);
+            if (item.scrollLeft >= 2480 ||
+                item.scrollLeft >= 2209 ||
+                item.scrollLeft >= 2119 ||
+                item.scrollLeft >= 1700) {
+                console.log(true);
+                item.scrollLeft = 0;
+            }
+            console.log("the way of the Lord..", containerWidth);
         })
 
         const newIndex = currentIndex === 0 ? cards.length - 1 : currentIndex - 1;
@@ -93,7 +98,7 @@ const Slider = () => {
                     </div>
                     <div
                         className='carousel_card w-full h-full bg-center bg-contain duration-500 bg-no-repeat rounded bg-white'
-                        >
+                    >
                         {cards.map((slide, slideIndex) => (
                             <div
                                 key={slideIndex}
@@ -101,11 +106,11 @@ const Slider = () => {
                                 // style={{ backgroundImage: `url(${cards[currentIndex].img})` }}
                                 className='card cursor-pointer '
                             >
-                                <div className='w-[40vh] h-full flex items-center gap-3 p-3 rounded'>
-                                    <img 
-                                        src={slide.img} 
+                                <div className='card_img w-[40vh] h-full flex items-center gap-3 p-3 rounded'>
+                                    <img
+                                        src={slide.img}
                                         key={slideIndex}
-                                        alt="logistics" 
+                                        alt="logistics"
                                         className={
                                             slideIndex === currentIndex
                                                 ? "card_dot card_dot-active"

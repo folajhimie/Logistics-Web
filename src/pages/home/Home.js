@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.scss";
 import Featured from '../../components/Featured/Featured'
 import Sponspor from "../../components/Sponspor/Sponspor";
-// import TrustedBy from "../../components/TrustedBy/TrustedBy.jsx";
+
 // import Slide from "../../components/slide/Slide";
 // import CatCard from "../../components/catCard/CatCard";
 // import ProjectCard from "../../components/projectCard/ProjectCard";
@@ -13,7 +13,7 @@ function Home() {
     <div className="home">
       <Featured />
       <Sponspor/>
-      {/* <TrustedBy /> */}
+      
       {/* <Slide slidesToShow={5} arrowsScroll={5}>
         {cards.map((card) => (
           <CatCard key={card.id} card={card} />
